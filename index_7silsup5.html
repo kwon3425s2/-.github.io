@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        body {
+            width: 964px;
+            margin: 0 auto;
+        }
+        .clear {
+            clear: both;
+        }
+        #aside {
+            float: left;    /*--띄우다.. 가로로 나뉘는 영역에 클리어속성을 꼭 써줘야한다--*/
+            width: 260px;
+        }
+        #section {
+            float: right;
+            width: 700px;
+        }
+        a{margin-left:70px;} /*메뉴부분 마진주기*/
+        div {
+            border: solid 1px;
+        }
+        h1 {
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 10px rgb(0, 0, 0);
+        }
+         h3 {
+        color: rgb(174, 42, 174);
+        text-decoration: none;
+         }
+         p {
+        font-size: 14px;
+        line-height: 150%;
+            }
+         li {
+        list-style-type: circle;
+         }
+            span {
+        font-weight: bold;
+        color: brown;
+         }
+         
+         a:link, a:visited{
+            background-color: brown;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none; /*텍스트 언더라인 없애기*/
+            display: inline-block;
+         }
+         a:hover{
+            color:rgb(228, 203, 203);
+            text-decoration: none;
+         }
+        a:active{
+            color:yellow;
+            text-decoration: none;
+        }
+         
+    </style>
+</head>
+<body>
+    <div id="header"><h1>Header</h1></div>
+    <div id="navigation">
+        <h3><a href = '7silsup.html'>배낭여행</a>  <a href = '7silsup2.html'>쇼핑뉴스</a>  <a href = '7silsup3.html'>야생화 종류</a>  <a href = '7silsup4.html'>이천 쌀 문화 축제</a></h3>
+    </div>
+    <div class="clear"></div>
+    <div id="aside">
+        <h1>배낭여행</h1>
+        <p><h3>- 배낭여행이란?</h3>
+            <p class="p">여권, 항공권 등 여행 시 필요한 것만을 준비하고 현지에서 숙박, 
+             식사 등을 해결하는 자유여행을 말합니다.</p>
+         
+             <h3>- 배낭여행의 종류</h3>
+             <p class="p">배낭여행에는 모든 일정을 자신이 정하는 자유 배낭, 여러명이 같이 출발 전 숙소와 교통편 등을 미리 예약하고 여행하는
+                 단채배낭, 자유배낭과 단체 배낭의 중간 형태인 패키지 배낭여행 등이 있습니다.
+             </p>
+             <h3>- 배낭여행 준비</h3>
+             <ul>
+                 <li><span>여권준비</span>:여권이 없으면 신청하고 여권 유효기간을 반드시 체크.</li>
+                 <li><span>비행기 사이트 예약</span>:항공사의 예매 사이트ㄴ나 예약 대행 사이트 이용.</li>
+                 <li><span>여행 스케줄</span>:스케줄은 가능한 세부적으로 잘 짜야함.</li>
+                 <li><span>짐싸기</span>:꼭 필요한 물품만으로 최대한 간단하게 짐 준비.</li>
+             </ul>
+            <br>
+            <br>
+            <br>
+            <h2>쇼핑뉴스</h2>
+            <ul>
+                <li><span class="green">루바토</span> 봄맞이 세트상품 65% 한정판매!</li>
+                <li><span class="green">라리아네</span> 봄나들이 여성룩 최대 50%할인!</li>
+                <li><span class="green">우리마트</span> 우수농특산물 직거래 장터</li>
+                <li><span class="blue">우리몰</span> 소상공인과 함께하는 경제적인 아이템</li>
+                <li><span class="blue">골드스타</span> 14k 금값 폭ㄹ락! 최대 35%할인!</li>
+            </ul>
+            <br>
+            <br>
+            <br>
+        
+            <h1>1. 야생화 종류</h1>
+            <h3>-패랭이꽃</h3>
+            <p>석죽과의 여러해살이풀로서 꽃은 6~8월에 피고 가지 끝에 1개씩 달리며 붉은색이다.</p>
+            <br>
+            <h3>-강아지풀</h3>
+            <p>화본과의 1년초로서 꽃은 9월에 피고 꽃은 길이 2-5cm로서 연한 녹색 또는 자주색입니다.</p>
+            <h1>2. 야생화 재배 시 유의사항</h1>
+            <ul>
+                <li><span>기본요소 3가지</span>: 햇빛, 통풍, 1년간의 기온 변화.</li>
+                <li><span>일조량</span>: 주택의 방향에 따른 일조량에 따라 야생화 종을 선택해야 합니다.</li>
+                <li><span>온도</span>: 계절에 따른 온도의 변화를 알아야 합니다.</li>
+            </ul></p>
+    </div>
+    <div id="section">
+        <h1>이천쌀축제</h1>
+        <p><h1><이천 쌀 문화축제></h1>
+            <img src="img/ricefestival.jpg">
+            <p>이천쌀문화축제는 우리나라 주식이며 전국 최고의 미질을 자랑하는 <br>
+                이천의 대표적인 특산물인 쌀을 주제로 열리는 종합 문화관광축제이다. <br>
+                어린세대에게 전통 농경문화를 체험하고 어른들에겐 향수를 자아내며 <br>
+                함께 어울릴 수 있는 축제의 한마당으로 남녀노소 <br>
+                이천쌀의 진미를 느낄 수 있는 다양하고 재미있는 각종 행사가 열린다.</p>
+        
+            <br>
+            <h1><행사내용></h1>
+            <br>
+            <br>
+            <h3>메인프로그램</h3>
+            <ul>
+                <li><span>2천명 2천원 가마솥밥</span>: 초대형 가마솥에서 지은 2천인분의 이천쌀밥을 2천원에 푸짐하게 맛볼 수 있는 프로그램</li>
+                <li><span>무지개가래떡만들기</span>: 600m의 무지개 색 가래떡을 뽑아 관광객과 나누어 먹으며 가을걷이의 풍성함과 농촌의 정겨움을 느낄 수 있는 프로그램</li>
+            </ul>
+            <br>
+            
+            <h3>부대 프로그램</h3>
+            <ul>
+                <li><span>문화예술공연</span>: 개막놀이, 폐막놀이, 거북놀이, 마당극, 지역 문화예술 단체 공연, 동화인형극, 유치원 공연 등</li>
+                <li><span>전시 프로그램</span>: 임금님표이천브랜드홍보관, 농경유물 전시, 전통음식 및 천연염색연구회 전시 등</li>
+                <li><span>포토존 조성</span>: LED은하수, 다랭이논 등</li>
+            </ul>
+            <br>
+        
+            <h3>소비자 참여 이벤트</h3>
+                <ul>
+                    <li><span>시식 행사</span>: 뻥튀기 시연 및 무료 시식 행사, 엿만들기 체험 및 시식 등</li>
+                    <li><span>체험 프로그램</span>: 이천쌀문화학교 운영, 찾아가는 서당 운영, 모내기, 탈곡, 볏짚 공예 체험 등</li>
+                    <li><span>참여 이벤트 </span>: 노래자랑, 줄다리기, 라이스홀 경기, 윷놀이 등</li>
+                </ul>
+                <br>
+        
+            <h3>기타</h3>
+            <li>이천쌀 및 쌀가공품 전시, 홍보, 판매 등</li>
+            <br>
+            <br>
+            <br>
+        
+            <h1>축제개요</h1>
+            <h3>슬로건:풍성한 가을, 함께 즐기는 풍년잔치</h3>
+            <h3>축제기간:2023. 10. 18.(수) ~ 10. 22.(일) 5일간</h3>
+            <h3>장소:이천농업테마공원(모가면 공원로 48)</h3>
+            <br>
+            <br>
+            <h2><a href="https://www.ricefestival.or.kr/" target="_blank">이천쌀축제 페이지로 이동하기←←←</a></h2>
+        </p>
+    </div>
+
+    <div class="clear"></div>
+    <div id="footer"><h1>Footer</h1></div>
+    <div class="clear"></div>
+</body>
+</html>
